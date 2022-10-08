@@ -6,7 +6,7 @@ def init():
     global d
     global x
     global y 
-    print('Введите выражение для вычисления без i. Где на первой и третьей позиции стоят действительные числа, а на второй и четвёртой - мнимые')
+    print('Insert an expression to calculate without i. Where the first and third positions are real numbers, and the second and fourth are imaginary')
     exp = input()
     oper = 'none'
     if exp[0]=='-':
