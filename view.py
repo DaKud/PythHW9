@@ -1,10 +1,10 @@
 from fractions import Fraction
 
 def get_value():
-    return Fraction(input('Введите дробь: '))
+    return Fraction(input('Insert a fraction: '))
 
 def get_operator():
-    return input('Введите оператор: ')
+    return input('Insert an operator: ')
 
 def get_result(res):
-    print(f'Результат: {Fraction(res)}')
+    print(f'The result: {Fraction(res)}')
